@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Assignment 3</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+    <script src="scripts/main.js" defer></script>
+
+    <!-- Date/Time JS -->
+    <script src="scripts/date.js" defer></script>
+
+    <!-- Map API -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
+
+    <!-- GeoCoder -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.min.js"></script>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css" />
+
+</head>
+
+<body>
+
+    <!-- Clock -->
+    <div id="clock">
+        <h3 id="date">XX.YY.XXXX 00:00:00</h3>
+    </div>
+
+    <!-- Searchbar -->
+    <input type="text" name="search" id="location" placeholder="Insert landing location">
+    <input type="button" id="button" value="Search">
+
+    <!-- Map -->
+    <div id="map"></div>
+
+    <!-- Weather API details -->
+    <div id="weather">
+        <h2>Landing location: </h2>
+        <h3>Details</h3>
+    </div>
+
+</body>
+
+</html>

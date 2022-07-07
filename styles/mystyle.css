@@ -1,0 +1,80 @@
+body {
+    background-color: #222222;
+    color: #FFFFFF;
+    font-family: 'Mingzat', sans-serif;
+    text-align: center;
+}
+
+#map {
+    height: 50vh;
+    width: 70vw;
+
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+#clock {
+    margin-top: 30px;
+}
+
+#location {
+    margin: 0px 30px 30px 30px;
+    padding-left: 15px;
+    width: 450px;
+    height: 32px;
+
+    font-size: 1.2em;
+    font-family: 'Mingzat', sans-serif;
+    color: #FFFFFF;
+
+    background-color: transparent;
+    border: 3px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+#button {
+    width: 100px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.alienMarker {
+    background-image: url('../images/alien.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.stationMarker {
+    background-image: url('../images/location.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.mapboxgl-popup-close-button {
+    font-size: 16px;
+    color: #000000;
+}
+
+.mapboxgl-popup-content {
+    padding: 20px 25px;
+    color: #000000;
+    opacity: 0.8;
+    font-family: 'Mingzat', sans-serif;
+
+}
+
+.mapboxgl-popup-content h3 {
+    margin-top: 0;
+    margin-bottom: 4px;
+    color: #000000;
+}
